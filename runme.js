@@ -1554,8 +1554,8 @@ var getGithubUrl = function(callback) {
     rawurl : rawurl
   };
   
-  ret.url = "https://github.com/johnlauer/widget-grbl-touchplate";
-  ret.rawurl = "http://raw.githubusercontent.com/johnlauer/widget-grbl-touchplate/master/auto-generated-widget.html";
+//  ret.url = "https://github.com/johnlauer/widget-grbl-touchplate";
+//  ret.rawurl = "http://raw.githubusercontent.com/johnlauer/widget-grbl-touchplate/master/auto-generated-widget.html";
   
   //console.log("ret:", ret);
   return ret;
