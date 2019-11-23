@@ -164,7 +164,7 @@ cpdefine("inline:com-chilipeppr-widget-touchplate", ["chilipeppr_ready", 'Three'
             //now back off 2 mm to allow touch plate removal
             
             id = "tp" + this.gcodeCtr++;
-            gcode = "G90 G0 Z"+ (2.0+this.offset).toString() + "\n"
+            gcode = "G90 G0 Z"+ (2.0+parseFloat(this.offset)).toString() + "\n"
             chilipeppr.publish("/com-chilipeppr-widget-serialport/jsonSend", {Id: id, D: gcode});
             
             id = "tp" + this.gcodeCtr++;
